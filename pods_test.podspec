@@ -31,7 +31,7 @@ This framework for testing pods
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files 'pods_test/Classes/**/*'
+  s.source_files = 'pods_test/Classes/**/*'
   s.dependency 'IQKeyboardManagerSwift', '6.3.0'
   s.dependency 'MaterialComponents/Snackbar'
   s.dependency 'lottie-ios', '3.2.2'
