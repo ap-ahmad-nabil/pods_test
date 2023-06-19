@@ -49,6 +49,6 @@ This framework for testing pods
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
- s.vendored_frameworks= 'pods_test-0.1.3/ios_sdk.xcframework'
- s.preserve_paths= 'pods_test-0.1.3/ios_sdk.xcframework'
+ s.vendored_frameworks= 'ios_sdk.xcframework'
+ s.preserve_paths= 'ios_sdk.xcframework'
 end
