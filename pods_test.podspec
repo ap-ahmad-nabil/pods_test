@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'pods_test'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.platform         = :ios, "11.0"
   s.summary          = 'Testing pods framework'
 
