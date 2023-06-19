@@ -1,13 +1,28 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '11.0'
 
 target 'pods_test_Example' do
   pod 'pods_test', :path => '../'
 
+  pod 'IQKeyboardManagerSwift', '6.3.0'
+#  pod 'MaterialComponents/Snackbar'
+  pod 'lottie-ios', '3.2.2'
+#  pod 'Alamofire'
+#  pod 'SkeletonView'
+  pod 'Factory', '1.2.8'
+  pod 'RxSwift', '6.5.0'
+#  pod 'SnapKit'
   target 'pods_test_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+
+  end
+end
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '11'
+    end
   end
 end

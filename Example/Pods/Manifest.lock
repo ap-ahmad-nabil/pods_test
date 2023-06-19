@@ -1,0 +1,54 @@
+PODS:
+  - Alamofire (5.7.1)
+  - Factory (1.2.8)
+  - IQKeyboardManagerSwift (6.3.0)
+  - lottie-ios (3.2.2)
+  - pods_test (0.1.0):
+    - Alamofire
+    - Factory (= 1.2.8)
+    - IQKeyboardManagerSwift (= 6.3.0)
+    - lottie-ios (= 3.2.2)
+    - RxSwift (= 6.5.0)
+    - SkeletonView
+    - SnapKit
+  - RxSwift (6.5.0)
+  - SkeletonView (1.30.4)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Factory (= 1.2.8)
+  - IQKeyboardManagerSwift (= 6.3.0)
+  - lottie-ios (= 3.2.2)
+  - pods_test (from `../`)
+  - RxSwift (= 6.5.0)
+  - SkeletonView
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Factory
+    - IQKeyboardManagerSwift
+    - lottie-ios
+    - RxSwift
+    - SkeletonView
+    - SnapKit
+
+EXTERNAL SOURCES:
+  pods_test:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  Factory: 7bffa5f381d923eabeb750fc8f7920a4bc443220
+  IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
+  lottie-ios: a033bb989eea77d9f99cc4e2bbdd3788229761ad
+  pods_test: b860a5efe9bf2be62d3f0f11a02345c5f8348196
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 20a0f76c21f9404c1e8124e0fed0f7e2e6a9b203
+
+COCOAPODS: 1.12.1

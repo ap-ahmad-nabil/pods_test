@@ -1,0 +1,45 @@
+{
+  "name": "pods_test",
+  "version": "0.1.0",
+  "summary": "A short description of pods_test.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sfas/pods_test",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sfas": "ahmad.nabil@astrapay.com"
+  },
+  "source": {
+    "git": "https://github.com/sfas/pods_test.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "pods_test/Classes/**/*",
+  "dependencies": {
+    "IQKeyboardManagerSwift": [
+      "6.3.0"
+    ],
+    "lottie-ios": [
+      "3.2.2"
+    ],
+    "Alamofire": [
+
+    ],
+    "SkeletonView": [
+
+    ],
+    "Factory": [
+      "1.2.8"
+    ],
+    "RxSwift": [
+      "6.5.0"
+    ],
+    "SnapKit": [
+
+    ]
+  }
+}

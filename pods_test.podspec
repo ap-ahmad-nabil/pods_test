@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'pods_test'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of pods_test.'
+  s.platform         = :ios, "11.0"
+  s.summary          = 'Testing pods framework'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,20 +19,29 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This framework for testing pods
                        DESC
 
-  s.homepage         = 'https://github.com/sfas/pods_test'
+  s.homepage         = 'https://github.com/ap-ahmad-nabil/pods_test'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sfas' => 'ahmad.nabil@astrapay.com' }
-  s.source           = { :git => 'https://github.com/sfas/pods_test.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ap-ahmad-nabil/pods_test.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'pods_test/Classes/**/*'
-  
+  s.frameworks = 'IQKeyboardManagerSwift', '6.3.0'
+  s.frameworks = 'MaterialComponents/Snackbar'
+  s.frameworks = 'lottie-ios', '3.2.2'
+  s.frameworks = 'Alamofire'
+  s.frameworks = 'SkeletonView'
+  s.frameworks = 'Factory', '1.2.8'
+  s.frameworks = 'RxSwift', '6.5.0'
+  s.frameworks = 'SnapKit'
+#  s.ios.deployment_target = '13.0'
+  s.swift_versions = '5.3'
   # s.resource_bundles = {
   #   'pods_test' => ['pods_test/Assets/*.png']
   # }
